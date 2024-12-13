@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github](https://your-solution-url.com)
-- Live Site URL: [github page](https://your-live-site-url.com)
+- Solution URL: [github]([https://your-solution-url.com](https://github.com/samy-ard/rest-api-countries/))
+- Live Site URL: [github page]([https://your-live-site-url.com](https://samy-ard.github.io/rest-api-countries/))
 
 ## My process
 
