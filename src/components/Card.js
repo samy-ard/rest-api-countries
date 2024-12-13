@@ -7,7 +7,7 @@ export default function Card(countries) {
             <>
               <a
                 key={item.alpha3Code}
-                href={"/country/" + item.alpha2Code.toLocaleLowerCase()}
+                href={"./country/" + item.alpha2Code.toLocaleLowerCase()}
                 className="col-auto px-0 mx-0 col-card"
               >
                 <article className="card">

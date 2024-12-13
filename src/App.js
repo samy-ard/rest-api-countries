@@ -12,6 +12,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home/" element={<Home />} />
         <Route path="/country/:code" element={<Country />} />
+        <Route path="/rest-api-countries/" element={<Home />} />
+        <Route path="/rest-api-countries/country/:code" element={<Country />} />
       </Routes>
     </BrowserRouter>
   );
