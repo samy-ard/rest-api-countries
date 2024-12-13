@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Card(countries) {
   return (
     <>
@@ -5,9 +7,9 @@ export default function Card(countries) {
         {countries.data.map((item) => {
           return (
             <>
-              <a
+              <Link
                 key={item.alpha3Code}
-                href={"./country/" + item.alpha2Code.toLocaleLowerCase()}
+                to={"/country/" + item.alpha2Code.toLocaleLowerCase()}
                 className="col-auto px-0 mx-0 col-card"
               >
                 <article className="card">
@@ -35,7 +37,7 @@ export default function Card(countries) {
                     </div>
                   </div>
                 </article>
-              </a>
+              </Link>
             </>
           );
         })}
